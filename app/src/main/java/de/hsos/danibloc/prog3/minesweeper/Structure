@@ -1,0 +1,15 @@
+Requirements:
+Unrevealed Mine - M
+UNrevealed Empty Space - E
+Revealed Blank Space - B
+Digit - {'1' - '8'}
+Revealed Mine - X
+Integer Array - click position
+
+Update Board Rules:
+1. If 'M' -> Game Over
+2. IF 'E' & No Adjacent Mines -> 'B'
+3. IF 'E' & 1+ Mine(s) -> 'Digit'
+4. Return Board when no more squares'll be revealed
+
+
